@@ -1,3 +1,10 @@
+:root {
+    --background-color: #ffe4c4;
+    --shield-primary-gradient: linear-gradient(to right, #701111, #ff0000, #701111);
+    --shield-secondary-gradient: linear-gradient(to right, #7e7979, #ffffff, #7e7979);
+    --shield-center-gradient: linear-gradient(to right, #11117e, #0000ff, #11117e);
+  }
+
 body {
     margin: 0px;
 }
@@ -5,7 +12,7 @@ body {
 #container {
     display: flex;
     height: 100vh;
-    background-color: bisque;
+    background-color: var(--background-color);
 }
 
 .circle {
@@ -18,23 +25,23 @@ body {
 #circle1 {
     width: 256px;
     height: 256px;
-    background-color: red;
+    background-image: var(--shield-primary-gradient);
 }
 
 #circle2 {
     width: 206px;
     height: 206px;
-    background-color: white;
+    background-image: var(--shield-secondary-gradient);
 }
 
 #circle3 {
     width: 156px;
     height: 156px;
-    background-color: red;
+    background-image: var(--shield-primary-gradient);
 }
 
 #circle4 {
     width: 106px;
     height: 106px;
-    background-color: blue;
+    background-image: var(--shield-center-gradient);
 }
