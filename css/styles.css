@@ -73,3 +73,10 @@ body {
     transform: rotate(-70deg);
     margin-left: -48.8px;
 }
+
+#footer {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
