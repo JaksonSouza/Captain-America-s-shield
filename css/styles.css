@@ -11,14 +11,16 @@ body {
 }
 
 #container {
-    display: flex;
     height: 100vh;
     background-color: var(--background-color);
 }
 
-.circle {
+.center {
     display: flex;
     margin: auto auto;
+}
+
+.circle {
     border: 1px solid var(--border-color);
     border-radius: 50%;
 }
