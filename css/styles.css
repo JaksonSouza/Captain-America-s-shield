@@ -3,6 +3,7 @@
     --shield-primary-gradient: linear-gradient(to right, #701111, #ff0000, #701111);
     --shield-secondary-gradient: linear-gradient(to right, #7e7979, #ffffff, #7e7979);
     --shield-center-gradient: linear-gradient(to right, #11117e, #0000ff, #11117e);
+    --border-color: #000000;
   }
 
 body {
@@ -18,7 +19,7 @@ body {
 .circle {
     display: flex;
     margin: auto auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     border-radius: 50%;
 }
 
